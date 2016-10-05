@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
-    public final static String LOG_TAG = "DisplayMessageActivity";
+    private final static String LOG_TAG = "DisplayMessageActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
