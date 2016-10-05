@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     private final static String LOG_TAG = "MainActivity";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,4 +64,5 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.e(LOG_TAG, "App has been DESTROYED!!");
     }
+
 }

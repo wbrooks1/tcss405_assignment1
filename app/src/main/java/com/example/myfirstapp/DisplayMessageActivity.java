@@ -61,4 +61,5 @@ public class DisplayMessageActivity extends AppCompatActivity {
         super.onDestroy();
         Log.e(LOG_TAG, "App has been DESTROYED!!");
     }
+
 }
