@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+    public void willsButton(View view) {
+        Intent intent = new Intent(this, WillsActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     public void onPause() {
