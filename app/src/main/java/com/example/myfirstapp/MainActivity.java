@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void sendJacob(View view) {
+        Intent intent = new Intent(this, JacobActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onPause() {
         super.onPause();

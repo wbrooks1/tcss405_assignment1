@@ -2,5 +2,9 @@
     <string name="app_name">My First App</string>
     <string name="edit_message">"Enter a message</string>
     <string name="button_send">Send</string>
+<<<<<<< HEAD
     <string name="title_activity_wills">WillsActivity</string>
+=======
+    <string name="jacobName">Jacob</string>
+>>>>>>> 3ffe4358fa1d0efb762dbc616d2a7b2d5e194109
 </resources>

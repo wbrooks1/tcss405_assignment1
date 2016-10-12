@@ -20,6 +20,7 @@
             android:name=".WillsActivity"
             android:label="@string/title_activity_wills"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".JacobActivity"></activity>
     </application>
 
 </manifest>

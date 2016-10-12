@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+<<<<<<< HEAD
     <Button
         android:text="Will's Button"
         android:layout_width="wrap_content"
@@ -14,9 +15,11 @@
         android:layout_weight="1"
         android:onClick="willsButton" />
 
+=======
+>>>>>>> 3ffe4358fa1d0efb762dbc616d2a7b2d5e194109
     <EditText android:id="@+id/edit_message"
         android:layout_weight="1"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/edit_message" />
     <Button
@@ -24,6 +27,11 @@
         android:layout_height="wrap_content"
         android:text="@string/button_send"
         android:onClick="sendMessage" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jacobName"
+        android:onClick="sendJacob" />
 </LinearLayout>
 
 
